@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" >
+	</head>
+
+	<body>
+	   <div class="first">
+		<h1>Relaxr</h1>
+		<h2>Get piece of mind with a single tap</h2>
+
+		<p class="firstlink">
+			<a href="#">Get it Now</a>
+		</p>	
+	   </div>
+
+	   <div class="second">	
+		<h3>Benefits</h3>
+		<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+		<ul>
+			<li>Schedule meetings for you</li>
+			<li>Excel automation to complete your work for you</li>
+			<li>Responds to emails on your behalf</li>
+			<li>Does all your work for you with our revolutionary AI technology</li>
+		</ul>
+	   </div>
+
+		
+	  <div class="third">	
+	   <div class="quote">	
+		<p class="Amanda">"Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."</p>	
+		<h4>- Amanda, Intuit</h4>
+       </div> 
+
+		<h1 class="secondary">Relaxr</h1>
+		<nav>
+		</nav>
+		<p>
+			<a href="#">Sign Up Now!</a>
+		</p>	
+		<footer>
+			<p>Copyright 2015. Relaxr.</p>
+		</footer>		
+	   </div>
+	</body>
+
+
+</html>

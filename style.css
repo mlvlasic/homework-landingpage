@@ -1,0 +1,59 @@
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p.firstlink {
+	text-align: center;
+	font-size: 14px;
+	border-radius: 5px;
+	font-weight: 800;
+}
+
+div.first {
+	padding-bottom: 200px;
+	padding-right:200px;
+	padding-left: 200px; 
+}
+
+div.second {
+	padding-bottom: 200px;
+	padding-right: 200px;
+	padding-left: 200px;
+	background-color: #f0efef;
+}
+
+div.quote {
+	background-color: #033048;
+	text-align: center;
+}
+
+p.Amanda {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+div.third {
+	padding-bottom: 200px;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+ul {
+	padding right: 100px;
+}
