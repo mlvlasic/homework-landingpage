@@ -34,17 +34,21 @@
 		<h4>- Amanda, Intuit</h4>
        </div>
       </div>  
-
+		<p class="bottomlink">
+			<a href="#" class="bottomlink">Sign Up Now!</a>
+		</p>	
+		
+	   <div class="lastbackground">	
 		<h1 class="secondary">Relaxr</h1>
 		<nav>
+			<img src="facebook.png" alt="Facebook symbol">
+			<img src="twitter.png" alt="Twitter symbol">
 		</nav>
-		<p>
-			<a href="#">Sign Up Now!</a>
-		</p>	
 		<footer>
 			<p>Copyright 2015. Relaxr.</p>
 		</footer>		
-	   </div>
+	  </div>
+	  </div>
 	</body>
 
 
