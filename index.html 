@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css" >
+		<link rel="stylesheet" href="reset.css" >
 	</head>
 
 	<body>
@@ -10,7 +11,7 @@
 		<h2>Get piece of mind with a single tap</h2>
 
 		<p class="firstlink">
-			<a href="#">Get it Now</a>
+			<a href="#" class="not-active">Get it Now</a>
 		</p>	
 	   </div>
 
@@ -26,11 +27,13 @@
 	   </div>
 
 		
-	  <div class="third">	
+	 <div class="third">	
+	  <div class="thirdbackground">
 	   <div class="quote">	
 		<p class="Amanda">"Relaxr changed my life. I've been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work."</p>	
 		<h4>- Amanda, Intuit</h4>
-       </div> 
+       </div>
+      </div>  
 
 		<h1 class="secondary">Relaxr</h1>
 		<nav>
