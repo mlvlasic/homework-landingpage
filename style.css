@@ -108,7 +108,7 @@ a.bottomlink {
 	background-color: #033048;
 	border-radius: 5px
 	font-weight: 800;
-	border: 7px solid;
+	border: 10px solid;
 	border-color: #033048;
 }
 
@@ -117,6 +117,8 @@ p.bottomlink {
 	background-color: yellow;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-size: 12px;
+	font-weight: 800;
 }
 
 footer {
@@ -146,6 +148,8 @@ nav {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+
 
 
 

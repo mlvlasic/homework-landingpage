@@ -41,8 +41,8 @@
 	   <div class="lastbackground">	
 		<h1 class="secondary">Relaxr</h1>
 		<nav>
-			<img src="facebook.png" alt="Facebook symbol">
-			<img src="twitter.png" alt="Twitter symbol">
+			<img src="twitter.png" alt="Twitter symbol" height="12px" width="20px">
+			<img src="facebook.png" alt="Facebook symbol" height="17px">
 		</nav>
 		<footer>
 			<p>Copyright 2015. Relaxr.</p>
