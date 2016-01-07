@@ -1,46 +1,20 @@
-<!-- 
-	From Joni: Overall comments
-
-	Hi Matt!  I am going to write comments to your code in HTML comments like this one.
-
-	Overall, great job with formatting your HTML so that your code is indented for the most part.  Just 
-	remember to be consistent with your indenting, but your code is pretty easy to read, which is great.
--->
-
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--
-			Regarding these stylesheet declarations, always make sure that your link to the reset.css
-			file comes *before* your link to any other style sheets.  Otherwise, the styles in reset.css
-			will override styles in your other .css files.  So.. order matters here.
-
-			Also, there is no reset.css file in your code base.
-		-->
 		<link rel="stylesheet" href="style.css" >
 		<link rel="stylesheet" href="reset.css" >
 	</head>
 
 	<body>
-	   <!-- 
-	       Since this first div is at the top of the page and contains your logo, etc, think about other
-	       semantic HTML tags you can use - i.e. <header>
-	   -->
 	   <div class="first">
 		<h1>Relaxr</h1>
-		<h2>Get piece of mind with a single tap</h2> <!-- Great use of <h1> vs. <h2> here! -->
+		<h2>Get piece of mind with a single tap</h2>
 
 		<p class="firstlink">
 			<a href="#" class="not-active">Get it Now</a>
 		</p>	
 	   </div>
 
-	   <!-- 
-	       For the rest of these blocks, think about other semantic HTML tags you can use instead of the 
-	       <div> tag - i.e. <section>.  Nothing wrong with the <div> tag, but ideally, it should be used
-	       as a last resort if you cannot find a more appropriate HTML tag to use for these overarching
-	       sections.
-	   -->
 	   <div class="second">	
 		<h3>Benefits</h3>
 		<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
@@ -60,18 +34,13 @@
 		<h4>- Amanda, Intuit</h4>
        </div>
       </div>  
-
-      <!-- 
-          There is a bunch of space above and below this <p> tag.  That is because there is no reset.css
-          file in your code folder.  The reset.css file will remove that space above and below all <p> tags
-      -->
-		<p class="bottomlink"> 
+		<p class="bottomlink">
 			<a href="#" class="bottomlink">Sign Up Now!</a>
 		</p>	
 		
 	   <div class="lastbackground">	
 		<h1 class="secondary">Relaxr</h1>
-		<nav> <!-- Nice use of the <nav> tag here -->
+		<nav>
 			<img src="twitter.png" alt="Twitter symbol" height="12px" width="20px">
 			<img src="facebook.png" alt="Facebook symbol" height="17px">
 		</nav>

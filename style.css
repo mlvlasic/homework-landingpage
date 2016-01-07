@@ -1,13 +1,5 @@
-/* From Joni: Overall comments
- * 
- * Hi Matt!  I will be adding in comments to your code in CSS comments like this one.
- * 
- * Overall, your code is wonderfully easy to read.  Great job with the formatting, ordering, and 
- * indenting here!
- */
-
 html {
-	font-family: 'Open Sans', sans-serif;  /* Nice declaration of your fonts in the html selector! */
+	font-family: 'Open Sans', sans-serif;
 	margin-right: 320px;
 	margin-left: 320px;
 }
@@ -37,7 +29,7 @@ p.firstlink {
 	color: black;
 	font-size: 14px;
 	border: 7px solid;
-	border-color: yellow; /* Remember to use the hex codes from the design file instead of the "yellow" keyword */
+	border-color: yellow;
 	border-radius: 5px;
 	font-weight: 800;
 	margin-right: 255px;
@@ -46,7 +38,7 @@ p.firstlink {
 }
 
 a.not-active {
-	pointer-events: none; /* Nice find!  I actually have not seen this property used before; it is fairly new. */
+	pointer-events: none;
 	cursor: default;
 	color: black;
 	text-decoration: none;
@@ -105,11 +97,6 @@ ul {
 }
 
 div.first {
-	/* 
-	    Another nice find with the column-count and the vendor prefixes.  I am not sure that does anything
-	    for you in this case, but definitely like that you are experimenting with new things.
-	    This property is more for layouts where you have multiple columns (like the week 3 assignment).
-	*/
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
@@ -119,11 +106,9 @@ a.bottomlink {
 	text-decoration: none;
 	color: white;
 	background-color: #033048;
-	/* don't forget your semi-colons (below) */
-	border-radius: 5px  
+	border-radius: 5px
 	font-weight: 800;
-	/* You can also combine the next 2 lines into 1 - i.e. border: 10px solid #033048; */
-	border: 10px solid; 
+	border: 10px solid;
 	border-color: #033048;
 }
 
