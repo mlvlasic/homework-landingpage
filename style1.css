@@ -1,0 +1,18 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	float: right;
+	padding: 10px;
+	color: yellow;
+}
