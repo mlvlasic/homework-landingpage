@@ -1,23 +1,95 @@
 html {
 	font-family: 'Open Sans', sans-serif;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 h1 {
 	float: left;
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 36px;
+	padding-left: 60px;
+	padding-top: 10px;
 }
 
 ul {
 	list-style-type: none;
+	font-size: 24px;
+	font-weight: 600;
+	padding-right: 40px;
 }
 
 li {
 	display: inline;
 	float: right;
-	padding: 10px;
+	padding: 20px;
 	color: yellow;
 }
 
 h2 {
-	clear: both;
+	float: left;
+	padding-top: 60px;
+	font-weight: 600;
+	font-size: 40px;
+	color: #033048;
+	padding-bottom: 20px;
 }
+
+.blue_background {
+	background-color: #033048;
+	padding-top: 15px;
+	padding-bottom: 75px;
+}
+
+#first_image {
+	background-color: #f0efef;
+	padding-left: 100px;
+}
+
+#second_image {
+	background-color: #f0efef;
+	padding-left: 100px;
+}
+
+div.ad {
+	float: right;
+	width: 240px;
+}
+
+.left {
+	float: left;
+	width: 700px;
+}
+
+.word_chunk {
+	font-size: 24px;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
