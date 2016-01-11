@@ -42,22 +42,12 @@ h2 {
 	padding-bottom: 75px;
 }
 
-#first_image {
+.first {
 	background-color: #f0efef;
 	padding-left: 100px;
 }
 
-section.first {
-	background-color: #f0efef;
-	padding-left: 100px;
-}
-
-div.ad {
-	float: right;
-	width: 240px;
-}
-
-section.space_left {
+.space_left {
 	float: left;
 	width: 700px;
 }
@@ -68,24 +58,35 @@ section.space_left {
 	padding-top: 30px;
 }
 
+.two {
+	padding-bottom: 50px;
+}
+
 .first_h3 {
 	padding-top: 50px;
 	font-size: 32px;
 	font-weight: 800;
+	padding-bottom: 20px;
 }
 
 .second_h3 {
 	font-size: 32px;
 	font-weight: 800;
+	padding-bottom: 20px;
 }
 
-section.space_right {
-	padding-right: 100px;
+.space_right {
 	float: right;
 	width: 240px;
 }
 
 .list {
+	font-size: 24px;
+	font-weight: 300;
+	padding-bottom: 40px;
+}
+
+.list_two {
 	font-size: 24px;
 	font-weight: 300;
 }
@@ -98,6 +99,10 @@ section.space_right {
 .m {
 	font-size: 24px;
 	font-weight: 600;
+	padding-top: 50px;
+	text-align: right;
+	padding-right: 20px;
+	clear: both;
 }
 
 a.bottomlink {
@@ -131,7 +136,7 @@ h1.secondary {
 	text-align: center;
 	color: yellow;
 	font-weight: 800;
-	font-size: 24px;
+	font-size: 36px;
 	padding-top: 20px;
 }
 
@@ -147,6 +152,10 @@ nav.bottom {
 	padding-bottom: 20px;
 }
 
+.third_section {
+	clear: both;
+	width: 1000px;
+}
 
 
 
