@@ -47,11 +47,9 @@ h2 {
 	padding-left: 100px;
 }
 
-#second_image {
+section.first {
 	background-color: #f0efef;
 	padding-left: 100px;
-	float: left;
-	width: 700px;
 }
 
 div.ad {
@@ -59,7 +57,7 @@ div.ad {
 	width: 240px;
 }
 
-.left {
+section.space_left {
 	float: left;
 	width: 700px;
 }
@@ -81,13 +79,25 @@ div.ad {
 	font-weight: 800;
 }
 
-.right {
+section.space_right {
 	padding-right: 100px;
+	float: right;
+	width: 240px;
 }
 
 .list {
 	font-size: 24px;
 	font-weight: 300;
+}
+
+.isolated {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.m {
+	font-size: 24px;
+	font-weight: 600;
 }
 
 a.bottomlink {
