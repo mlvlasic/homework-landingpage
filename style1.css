@@ -50,6 +50,8 @@ h2 {
 #second_image {
 	background-color: #f0efef;
 	padding-left: 100px;
+	float: left;
+	width: 700px;
 }
 
 div.ad {
