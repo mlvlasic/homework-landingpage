@@ -23,8 +23,12 @@ function changeBackgroundImage {
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
 	var city = $("city-type").val();
 
-	if city == "Sydney" || city == "SYD" {
+	if(city == "Sydney") || (city == "SYD") {
 		$("body").css("background", "sydney.jpg");
+	}
+
+	else if(city == "NYC") || (city == "New York") || (city == "New York City") {
+		
 	}
 
 	else {
