@@ -23,17 +23,20 @@ function changeBackgroundImage {
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
 	var city = $("city-type").val();
 
-	if city {
-		city-type = "Enter a city name..." {
-		city-type = "Sydney";
+	if city == "Sydney" || city == "SYD" {
 		$("body").css("background", "sydney.jpg");
 	}
 
 	else {
-		city-type = "Enter a city name...";
+		city == "Enter a city name...";
 		$("body").css("background", "citipix_skyline.jpg")
 	}
 }
+
+/* if input text reads "Sydney" or "SYD" and the user presses 'update': change background to sydney.jpg
+
+Otherwise: show default background image */
+
 
 
 
