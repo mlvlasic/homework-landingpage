@@ -24,57 +24,33 @@ function changeBackgroundImage () {
 	var city = $("city-type").val();
 
 	if(city == "Sydney") || (city == "SYD") {
-		$("body").addClass('SYD');
-		$("body").removeClass('NY');
-		$("body").removeClass('SF');
-		$("body").removeClass('ATX');
-		$("body").removeClass('LA');
-		$("body").removeClass("Default");
+		$("body").addClass("SYD");
+		$("body").removeClass("NY SF ATX LA Default");
 	}
 
 	else if(city == "NYC") || (city == "New York") || (city == "New York City") {
 		$("body").addClass("NY");
-		$("body").removeClass("SYD");
-		$("body").removeClass("SF");
-		$("body").removeClass("ATX");
-		$("body").removeClass("LA");
-		$("body").removeClass("Default");
+		$("body").removeClass("SYD ATX LA SF Default");
 	}
 
 	else if (city == "San Francisco")  || (city == "Bay Area") || (city == "SF") {
 		$("body").addClass("SF");
-		$("body").removeClass("NY");
-		$("body").removeClass("SYD");
-		$("body").removeClass("ATX");
-		$("body").removeClass("LA");
-		$("body").removeClass("Default");
+		$("body").removeClass("NY LA ATX SYD Default");
 	}
 
 	else if (city == "Los Angeles") || (city == "LAX") || (city == "LA") {
 		$("body").addClass("LA");
-		$("body").removeClass("NY");
-		$("body").removeClass("SF");
-		$("body").removeClass("ATX");
-		$("body").removeClass("SYD");
-		$("body").removeClass("Default");
+		$("body").removeClass("NY SF SYD ATX Default");
 	}
 
 	else if (city == "Austin") || (city == "ATF") {
 		$("body").addClass("ATX");
-		$("body").removeClass("NY");
-		$("body").removeClass("SF");
-		$("body").removeClass("SYD");
-		$("body").removeClass("LA");
-		$("body").removeClass("Default");
+		$("body").removeClass("NY SYD LA SF Default");
 	}
 
 	else {
 		$("body").addClass("Default");
-		$("body").removeClass("NY");
-		$("body").removeClass("SF");
-		$("body").removeClass("ATX");
-		$("body").removeClass("LA");
-		$("body").removeClass("SYD");
+		$("body").removeClass("NY SF ATX LA SYD");
 	}
 
 }); 
