@@ -23,33 +23,33 @@ function changeBackgroundImage() {
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
 	var city = $("city-type").val();
 
-	if(city == "Sydney") || (city == "SYD") {
+	if((city == "Sydney") || (city == "SYD")) {
 		$("body").addClass("SYD");
-		$("body").removeClass("NY SF ATX LA Default");
+		$("body").removeClass("NY SF ATX LA default");
 	}
 
-	else if(city == "NYC") || (city == "New York") || (city == "New York City") {
+	else if((city == "NYC") || (city == "New York") || (city == "New York City")) {
 		$("body").addClass("NY");
-		$("body").removeClass("SYD ATX LA SF Default");
+		$("body").removeClass("SYD ATX LA SF default");
 	}
 
-	else if (city == "San Francisco")  || (city == "Bay Area") || (city == "SF") {
+	else if ((city == "San Francisco")  || (city == "Bay Area") || (city == "SF")) {
 		$("body").addClass("SF");
-		$("body").removeClass("NY LA ATX SYD Default");
+		$("body").removeClass("NY LA ATX SYD default");
 	}
 
-	else if (city == "Los Angeles") || (city == "LAX") || (city == "LA") {
+	else if ((city == "Los Angeles") || (city == "LAX") || (city == "LA")) {
 		$("body").addClass("LA");
-		$("body").removeClass("NY SF SYD ATX Default");
+		$("body").removeClass("NY SF SYD ATX default");
 	}
 
-	else if (city == "Austin") || (city == "ATF") {
+	else if ((city == "Austin") || (city == "ATF")) {
 		$("body").addClass("ATX");
-		$("body").removeClass("NY SYD LA SF Default");
+		$("body").removeClass("NY SYD LA SF default");
 	}
 
 	else {
-		$("body").addClass("Default");
+		$("body").addClass("default");
 		$("body").removeClass("NY SF ATX LA SYD");
 	}
 
@@ -60,4 +60,3 @@ function changeBackgroundImage() {
 Otherwise: show default background image */
 
 
-});
