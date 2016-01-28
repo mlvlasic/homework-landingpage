@@ -18,24 +18,66 @@ $("form").submit(changeBackgroundImage)
 $("#submit-btn").click(changeBackgroundImage)
 
 
-function changeBackgroundImage {
+function changeBackgroundImage () {
 	event.preventDefault();
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
 	var city = $("city-type").val();
 
 	if(city == "Sydney") || (city == "SYD") {
-		$("body").css("background", "sydney.jpg");
+		$("body").addClass('SYD');
+		$("body").removeClass('NY');
+		$("body").removeClass('SF');
+		$("body").removeClass('ATX');
+		$("body").removeClass('LA');
+		$("body").removeClass("Default");
 	}
 
 	else if(city == "NYC") || (city == "New York") || (city == "New York City") {
-		
+		$("body").addClass("NY");
+		$("body").removeClass("SYD");
+		$("body").removeClass("SF");
+		$("body").removeClass("ATX");
+		$("body").removeClass("LA");
+		$("body").removeClass("Default");
+	}
+
+	else if (city == "San Francisco")  || (city == "Bay Area") || (city == "SF") {
+		$("body").addClass("SF");
+		$("body").removeClass("NY");
+		$("body").removeClass("SYD");
+		$("body").removeClass("ATX");
+		$("body").removeClass("LA");
+		$("body").removeClass("Default");
+	}
+
+	else if (city == "Los Angeles") || (city == "LAX") || (city == "LA") {
+		$("body").addClass("LA");
+		$("body").removeClass("NY");
+		$("body").removeClass("SF");
+		$("body").removeClass("ATX");
+		$("body").removeClass("SYD");
+		$("body").removeClass("Default");
+	}
+
+	else if (city == "Austin") || (city == "ATF") {
+		$("body").addClass("ATX");
+		$("body").removeClass("NY");
+		$("body").removeClass("SF");
+		$("body").removeClass("SYD");
+		$("body").removeClass("LA");
+		$("body").removeClass("Default");
 	}
 
 	else {
-		city == "Enter a city name...";
-		$("body").css("background", "citipix_skyline.jpg")
+		$("body").addClass("Default");
+		$("body").removeClass("NY");
+		$("body").removeClass("SF");
+		$("body").removeClass("ATX");
+		$("body").removeClass("LA");
+		$("body").removeClass("SYD");
 	}
-}
+
+}); 
 
 /* if input text reads "Sydney" or "SYD" and the user presses 'update': change background to sydney.jpg
 
