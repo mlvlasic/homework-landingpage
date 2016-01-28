@@ -15,10 +15,10 @@ $("form").submit(changeBackgroundImage)
 
 /* creating a functional button here for when the user hits 'update' */
 
-$("#submit-btn").click(changeBackgroundImage)
+$("#submit-btn").click(changeBackgroundImage);
 
 
-function changeBackgroundImage () {
+function changeBackgroundImage() {
 	event.preventDefault();
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
 	var city = $("city-type").val();
@@ -58,29 +58,6 @@ function changeBackgroundImage () {
 /* if input text reads "Sydney" or "SYD" and the user presses 'update': change background to sydney.jpg
 
 Otherwise: show default background image */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
