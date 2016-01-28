@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 /* Using jQuery here to go find the form, wait for a submit event and then update background image */
 
-$("form").submit(changeBackgroundImage)
+$("form").submit(changeBackgroundImage);
 
 /* creating a functional button here for when the user hits 'update' */
 
