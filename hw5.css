@@ -45,72 +45,12 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body.default {
+.citipix {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
   background: url(citipix_skyline.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.NY {
-  color: #000;
-  font-size: 12px;
-  line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(nyc.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.SF {
-  color: #000;
-  font-size: 12px;
-  line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(sf.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.LA {
-  color: #000;
-  font-size: 12px;
-  line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(la.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.SYD {
-  color: #000;
-  font-size: 12px;
-  line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(sydney.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.ATX {
-  color: #000;
-  font-size: 12px;
-  line-height: 1.4;
-  font-family: Helvetica, Arial, sans-serif;
-  background: url(austin.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -183,20 +123,25 @@ header {
 }
 
 .nyc {
-  background-image: url(../images/nyc.jpg)
+  background-image: url("nyc.jpg");
 }
+
 .sf {
-  background-image: url(../images/sf.jpg)
+  background-image: url("sf.jpg");
 }
-.la {
-  background-image: url(../images/la.jpg)
-}
-.austin {
-  background-image: url(../images/austin.jpg)
-}
+
 .sydney {
-  background-image: url(../images/sydney.jpg)
+  background-image: url("sydney.jpg");
 }
+
+.austin {
+  background-image: url("austin.jpg");
+}
+
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

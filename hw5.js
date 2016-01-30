@@ -15,48 +15,47 @@ $("form").submit(changeBackgroundImage);
 
 /* creating a functional button here for when the user hits 'update' */
 
-$("#submit-btn").click(changeBackgroundImage);
+//$("#submit-btn").click(changeBackgroundImage); //redundant to put this in
 
 
 function changeBackgroundImage() {
 	event.preventDefault();
 	/* declaring a variable here and giving it the value of the input field that has the ID 'city-type' */
-	var city = $("city-type").val();
+	var city = $("#city-type").val();
 
-	if((city == "Sydney") || (city == "SYD")) {
-		$("body").addClass("SYD");
-		$("body").removeClass("NY SF ATX LA default");
+	if(city == "Sydney") || (city == "SYD") {
+		$("body").removeClass();
+		$("body").addClass("sydney");
 	}
 
-	else if((city == "NYC") || (city == "New York") || (city == "New York City")) {
-		$("body").addClass("NY");
-		$("body").removeClass("SYD ATX LA SF default");
+	else if(city == "NYC") || (city == "New York") || (city == "New York City") {
+		$("body").removeClass();
+		$("body").addClass("nyc");
 	}
 
-	else if ((city == "San Francisco")  || (city == "Bay Area") || (city == "SF")) {
-		$("body").addClass("SF");
-		$("body").removeClass("NY LA ATX SYD default");
+	else if (city == "San Francisco")  || (city == "Bay Area") || (city == "SF") {
+		$("body").removeClass();
+		$("body").addClass("sf");
 	}
 
-	else if ((city == "Los Angeles") || (city == "LAX") || (city == "LA")) {
-		$("body").addClass("LA");
-		$("body").removeClass("NY SF SYD ATX default");
+	else if (city == "Los Angeles") || (city == "LAX") || (city == "LA") {
+		$("body").removeClass();
+		$("body").addClass("la");
 	}
 
-	else if ((city == "Austin") || (city == "ATF")) {
-		$("body").addClass("ATX");
-		$("body").removeClass("NY SYD LA SF default");
+	else if (city == "Austin") || (city == "ATF") {
+		$("body").removeClass();
+		$("body").addClass("austin");
 	}
 
 	else {
-		$("body").addClass("default");
-		$("body").removeClass("NY SF ATX LA SYD");
+		$("body").removeClass();
+		$("body").addClass("citipix");
 	}
+
+ }
 
 }); 
 
-/* if input text reads "Sydney" or "SYD" and the user presses 'update': change background to sydney.jpg
-
-Otherwise: show default background image */
 
 
