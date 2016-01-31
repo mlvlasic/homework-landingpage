@@ -10,6 +10,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+<<<<<<< HEAD
+=======
 		<!--
 			Regarding these stylesheet declarations, always make sure that your link to the reset.css
 			file comes *before* your link to any other style sheets.  Otherwise, the styles in reset.css
@@ -18,7 +20,9 @@
 			Also, there is no reset.css file in your code base.
 		-->
 		<link rel="stylesheet" href="style.css" >
+>>>>>>> origin/master
 		<link rel="stylesheet" href="reset.css" >
+		<link rel="stylesheet" href="style.css" >
 	</head>
 
 	<body>
