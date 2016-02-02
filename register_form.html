@@ -5,14 +5,14 @@
 	<link href="buildform.css" type="text" rel="stylesheet">
 </head>
 
-<body>
-	<h1>Register Form</h1>
+<body id="register_page">
+	<h1 class="rf">Register Form</h1>
 
 	<form>
 		<fieldset>
 			<legend>How can we reach you</legend>
 			<div class="container">
-				<label for="name">Full Name</label>
+				<label for="name" class="labels">Full Name</label>
 				<input type="text" name="firstname" value="First" autofocus>
 				<input type="text" name="middlename" value="Name/Initial">
 				<input type="text" name="lastname" value="Last">
@@ -22,20 +22,79 @@
 		<fieldset>
 			<legend>Where to reach you</legend>
 			<div class="container">
-				<label for"number">By Phone</label>
-				<input type="tel" name="cellphone" value="Cellular"> - 
-				<input type="tel" name="cellphone" value="Cellular"> - 
-				<input type="tel" name="cellphone" value="Cellular">
+				<label for"number" class="labels">By Phone</label>
+				<input type="tel" name="cellphone" class="tele_numbers" value="Cellular" maxlength="3"> - 
+				<input type="tel" name="cellphone" class="tele_numbers" value="Cellular" maxlength="3"> - 
+				<input type="tel" name="cellphone" class="tele_numbers" value="Cellular" maxlength="4">
 			 <div class="work">
-				<label for"number">By Phone</label>
-				<input type="tel" name="workphone" value="Work"> - 
-				<input type="tel" name="workphone" value="Work"> - 
-				<input type="tel" name="workphone" value="Work">
+				<label for"number" class="labels">By Phone</label>
+				<input type="tel" name="workphone" class="tele_numbers" value="Work" maxlength="3"> - 
+				<input type="tel" name="workphone" class="tele_numbers" value="Work" maxlength="3"> - 
+				<input type="tel" name="workphone" class="tele_numbers" value="Work" maxlength="4">
 			 </div>
 			</div>	
+
+			<div class="email">
+				<label for"email" class="email">By Email</label>
+				<input type="email" name="email" value="Email Address">
+			</div>
 		</fieldset>
+
+		<fieldset>
+			<legend>Your interest in Relaxr</legend>
+			<div class="container">
+				<label for"description" class="labels">Please describe how you will use Relaxr:</label>
+				<textarea type="text" name="description" value="Type here!"> </textarea>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>How'd you find us?</legend>
+			<div class="container">
+				<label for"select" class="labels">Pick an option</label>
+				<select>
+					<option>Social Media</option>
+					<option>Los Angeles Billboard</option>
+					<option>Magazine Ad</option>
+					<option>Other</option>
+				</select>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Need to demo Relaxr?</legend>
+			<input type="checkbox" name="demo" value="Try Demo">Try Demo<br>
+			<input type="checkbox" name="demo" value="Don't need a Demo right now">No thanks!<br>
+		</fieldset>
+
+		<fieldset>
+			<input type="submit" value="Cancel">
+			<input type="submit" value="Submit">
+		</fieldset>
+
 	</form>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </html>
