@@ -1,0 +1,93 @@
+.sb {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 28px;
+	font-weight: 800;
+	float: left;
+	margin-left: 50px;
+	color: #444;
+}
+
+.sb2 {
+	float: right;
+	margin-right: 50px;
+}
+
+.headers {
+	clear: both;
+}
+
+.nav_list {
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+.list {
+	color: #444;
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.top {
+	background-color: #FFECB3;
+	margin-right: 75px;
+	margin-left: 75px;
+	padding-bottom: 25px;
+}
+
+.modern_working {
+	background-image: url(modern_working.jpg);
+	height: 800px;
+	width: 1252px;
+	margin-left: 75px;
+}
+
+.mission {
+	color: #FAFAFA;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 200px;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
