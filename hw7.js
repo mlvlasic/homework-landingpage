@@ -13,9 +13,9 @@ $(document).ready(function() { //telling the page here not to act until the full
 	
 //create a for loop to add values as options into the dropdown menu
 	for (i = 0; i < cities.length; i++) {
-		city = cities[i] //this defines each specific city as its own
+		city = cities[i] //this defines each specific city as its own ----you actually don't even need this, it's superfluous, because cities[i] is implicitly recognized already due to it being defined by the array
 		$('#city-type').val(city) //could also extend this with the next line --compress the two for cleaner code
-		$('#city-type').append("<option>" + city + "</option");
+		$('#city-type').append("<option>" + city + "</option"); //so if you didn't define city as a variable, you would instead just put cities[i] in the middle and this would be more economical anyway
 	}
 
 //create a function to execute the user's action of selecting an input and thus changing the background picture displayed

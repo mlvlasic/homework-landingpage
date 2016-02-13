@@ -34,7 +34,7 @@
 	padding-bottom: 25px;
 }
 
-.top, .philosophy {
+.top, .philosophy, .the_digs {
 	margin-right: 75px;
 	margin-left: 75px;
 }
@@ -70,17 +70,55 @@
 	padding-bottom: 7px;
 }
 
-.philosophy {
+.philosophy, .the_digs {
 	font-size: 20px;
 	background-color: #4A148C;
 }
 
 .describe_philosophy {
-	padding-left: 300px;
-	padding-right: 300px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	width: 500px;
+	padding-left: 400px;
+	padding-top: 20px;
+	line-height: 1.5;
+	text-align: center;
 }
+
+.unproductive, .stressed {
+	color: #F48FB1;
+	font-weight: 600;
+}
+
+#phil {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 42px;
+	color: #fff;
+	margin-left: 100px;
+	padding-left: 20px;
+	line-height: 1.3;
+	border: 2px solid white;
+	width: 350px;
+}
+
+.show_digs {
+	padding-top: 500px;
+}
+
+#stick {
+	width: 100px;
+	height: auto;
+	float: right;
+	padding-right: 50px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+.running_sticks {
+	padding-top: 60px;
+	padding-bottom: 20px;
+	padding-right: 110px;
+}
+
+
 
 
 
