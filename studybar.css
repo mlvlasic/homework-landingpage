@@ -127,12 +127,20 @@
 }
 
 .be_productive {
-	width: 700px;
+	width: 750px;
 	padding-left: 290px;
+	border: 2px solid white;
+	padding-left: 0px;
+	height: 140px;
+}
+
+.productivity {
+	margin-left: 275px;
+	padding-top: 25px;
 }
 
 .show_digs {
-	padding-top: 500px;
+	padding-top: 200px;
 }
 
 #stick {
