@@ -79,10 +79,6 @@
 	color: #B2DFDB;
 }
 
-.cont {
-	color: #4DB6AC;
-}
-
 .to_do {
 	padding-bottom: 7px;
 }
@@ -170,9 +166,11 @@
 	padding-top: 320px;
 }
 
-.list {
+.arrows {
 	color: #FFF176;
 }
+
+
 
 
 
