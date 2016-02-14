@@ -34,7 +34,7 @@
 	padding-bottom: 25px;
 }
 
-.top, .philosophy, .the_digs {
+.top, .philosophy, .the_digs, .come {
 	margin-right: 75px;
 	margin-left: 75px;
 }
@@ -54,16 +54,29 @@
 	padding-left: 20px;
 }
 
-.iphone, .mission, .describe_philosophy {
+.iphone, .mission, .describe_philosophy, .describe_come {
 	color: #FAFAFA;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.equation {
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	font-size: 26px;
+	color: #fff;
 }
 
 .iphone {
 	padding-left: 959px;
 	padding-top: 245px;
 	font-size: 14px;
-	color: #E1BEE7;
+	color: #fff;
+}
+
+.cont {
+	color: #4DB6AC;
 }
 
 .to_do {
@@ -118,6 +131,15 @@
 	padding-top: 60px;
 	padding-right: 110px;
 }
+
+.come {
+	background-color: #B2DFDB;
+}
+
+.describe_come {
+	padding-bottom: 300px;
+}
+
 
 
 
