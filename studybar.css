@@ -57,7 +57,7 @@
 	color: #fff;
 }
 
-.describe_philosophy, .describe_come, .mission, .iphone {
+.describe_philosophy, .describe_come, .mission, .iphone, .be_productive {
 	color: #FAFAFA;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -69,11 +69,12 @@
 	padding-left: 20px;
 	font-size: 26px;
 	color: #fff;
+	line-height: 2.1;
 }
 
 .iphone {
 	padding-left: 959px;
-	padding-top: 245px;
+	padding-top: 85px;
 	font-size: 14px;
 	color: #B2DFDB;
 }
@@ -91,15 +92,15 @@
 	background-color: #4A148C;
 }
 
-.describe_philosophy {
+.describe_philosophy, .be_productive {
 	width: 500px;
 	padding-left: 400px;
-	padding-top: 20px;
+	padding-top: 30px;
 	line-height: 1.5;
 	text-align: center;
 }
 
-.unproductive, .stressed {
+.unproductive, .stressed, .understand, .us {
 	color: #F48FB1;
 	font-weight: 600;
 }
@@ -115,6 +116,19 @@
 	line-height: 1.3;
 	border: 2px solid white;
 	width: 320px;
+}
+
+.understand {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 22px;
+}
+
+.be_productive {
+	width: 700px;
+	padding-left: 290px;
 }
 
 .show_digs {
@@ -145,7 +159,11 @@
 
 .the_digs {
 	text-align: center;
-	padding-top: 120px;
+	padding-top: 320px;
+}
+
+.list {
+	color: #FFF176;
 }
 
 
