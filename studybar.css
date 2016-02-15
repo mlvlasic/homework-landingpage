@@ -67,14 +67,14 @@
 	text-align: center;
 	padding-top: 50px;
 	padding-left: 20px;
-	font-size: 26px;
+	font-size: 30px;
 	color: #fff;
 	line-height: 2.1;
 }
 
 .iphone {
 	padding-left: 959px;
-	padding-top: 85px;
+	padding-top: 70px;
 	font-size: 14px;
 	color: #B2DFDB;
 }
@@ -123,19 +123,15 @@
 }
 
 .be_productive {
-	width: 830px;
+	width: 970px;
 	border: 2px solid white;
 	padding-left: 0px;
 	height: 140px;
 }
 
 .productivity {
-	margin-left: 215px;
+	margin-left: 147px;
 	padding-top: 25px;
-}
-
-.show_digs {
-	padding-top: 200px;
 }
 
 #stick {
@@ -162,11 +158,36 @@
 
 .the_digs {
 	text-align: center;
-	padding-top: 320px;
+	padding-top: 120px;
 }
 
 .arrows {
 	color: #FFF176;
+}
+
+.show_digs {
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #EEEEEE;
+	font-weight: 600;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.backButton, .nextButton {
+	background-color: #E0E0E0;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 14px;
+	padding: 8px;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+.backButton:hover, .nextButton:hover {
+	background-color: #F48FB1;
+	color: #fff;
 }
 
 
