@@ -1,8 +1,20 @@
 $(document).ready(function() {
 
+//trying to create an autoscroll here
+//for when user clicks on each nav item, browser should scroll down to corresponding page component	
+		
+
+
+
+
+
+
+
+
+
 var studyBarImages = [
-	"coffeebar.jpg",
-	"computer.jpg"
+	"computer.jpg",
+	"coffeebar.jpg"
 ];
 
 var currentImage = 0;
@@ -13,7 +25,7 @@ $('.nextButton').click(function() {
 		currentImage = 0
 	}
 
-	$('#coffee').attr('src', studyBarImages[currentImage]);
+	$('#computer').attr('src', studyBarImages[currentImage]);
 
 });
 
@@ -23,7 +35,7 @@ $('.backButton').click(function() {
 		currentImage = studyBarImages.length - 1
 	}
 
-	$('#coffee').attr('src', studyBarImages[currentImage]);
+	$('#computer').attr('src', studyBarImages[currentImage]);
 
 
 });
