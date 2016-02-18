@@ -1,0 +1,23 @@
+html {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.nav_p {
+	border: 2px;
+	border-style: solid;
+	display: inline;
+	padding-right: 100px;
+}
+
+nav {
+	padding-bottom: 100px;
+}
+
+.top_p {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border: 5px;
+	border-style: solid;
+}

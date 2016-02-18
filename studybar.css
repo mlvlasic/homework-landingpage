@@ -22,7 +22,7 @@
 	display: inline-block;
 }
 
-.list {
+.list1, .list2, .list3, .list4, .list5 {
 	color: #444;
 	font-weight: 600;
 	font-size: 18px;
@@ -34,7 +34,7 @@
 	padding-bottom: 25px;
 }
 
-.top, .philosophy {
+.top, .philosophy, .the_digs, .come {
 	margin-right: 75px;
 	margin-left: 75px;
 }
@@ -44,6 +44,8 @@
 	height: 800px;
 	width: 1252px;
 	margin-left: 75px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 .mission {
@@ -52,35 +54,160 @@
 	text-align: center;
 	padding-top: 165px;
 	padding-left: 20px;
+	color: #fff;
 }
 
-.iphone, .mission, .describe_philosophy {
+.describe_philosophy, .describe_come, .mission, .iphone, .be_productive {
 	color: #FAFAFA;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
+.equation {
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+	font-size: 30px;
+	color: #fff;
+	line-height: 2.1;
+}
+
 .iphone {
 	padding-left: 959px;
-	padding-top: 245px;
+	padding-top: 70px;
 	font-size: 14px;
-	color: #E1BEE7;
+	color: #B2DFDB;
 }
 
 .to_do {
 	padding-bottom: 7px;
 }
 
-.philosophy {
+.philosophy, .the_digs {
 	font-size: 20px;
 	background-color: #4A148C;
 }
 
-.describe_philosophy {
-	padding-left: 300px;
-	padding-right: 300px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+.describe_philosophy, .be_productive {
+	width: 500px;
+	padding-left: 400px;
+	padding-top: 30px;
+	line-height: 1.5;
+	text-align: center;
 }
+
+.describe_philosophy {
+	padding-bottom: 31px;
+}
+
+.describe_philosophy, .unproductive, .stressed {
+	font-size: 22px;
+}
+
+.unproductive, .stressed, .understand, .us {
+	color: #F48FB1;
+	font-weight: 600;
+}
+
+#phil {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 42px;
+	color: #fff;
+	margin-left: 75px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 1.3;
+	border: 2px solid white;
+	width: 320px;
+}
+
+.understand {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-color: #A7FFEB;
+}
+
+.be_productive {
+	width: 970px;
+	border: 2px solid white;
+	padding-left: 0px;
+	height: 140px;
+}
+
+.productivity {
+	margin-left: 147px;
+	padding-top: 45px;
+}
+
+#stick {
+	width: 100px;
+	height: auto;
+	float: right;
+	padding-right: 50px;
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+
+.running_sticks {
+	padding-top: 60px;
+	padding-right: 110px;
+}
+
+.come {
+	background-color: #B2DFDB;
+}
+
+.describe_come {
+	padding-bottom: 300px;
+}
+
+.the_digs {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.computer {
+	max-width: 200px;
+	height: auto;
+}
+
+.arrows {
+	color: #FFF176;
+}
+
+.show_digs {
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #EEEEEE;
+	font-weight: 600;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.backButton, .nextButton {
+	background-color: #E0E0E0;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 14px;
+	padding: 8px;
+	border-radius: 4px;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+
+.backButton:hover, .nextButton:hover {
+	background-color: #F48FB1;
+	color: #fff;
+}
+
+
+
+
+
 
 
 
