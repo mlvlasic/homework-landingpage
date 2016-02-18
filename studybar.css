@@ -138,6 +138,9 @@
 	height: 140px;
 }
 
+/* 
+	The margin-left here is causing the .productivity block to push off to the right.
+*/
 .productivity {
 	margin-left: 147px;
 	padding-top: 45px;

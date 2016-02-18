@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
+<!-- You do not need this second <html> tag; please delete -->
 <html leng="eng">
 
+<!-- 
+	There should not be a <div> tag before your <head> tag.  Remember that your 
+	<head> tag contains a bunch of information about your website that is not
+	visible on the page - i.e. page title (that appears in the browser tab), links to
+	your CSS files.
+-->
 <div class="top">
  <head>
 	<title>studybar</title>
@@ -12,6 +19,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
   
+  <!-- 
+  	Also, this <div> should not be in your <head> tag because it contains elements that are
+  	visible to the user on the page.  Please move this block to be inside the <body> tag.
+  -->
    <div class="headers">
 	<h1 class="sb">STUDYBAR</h1> 
 	<h2 class="sb sb2">STUDYBAR</h2>
