@@ -13,8 +13,12 @@ $(document).ready(function() {
 
 
 var studyBarImages = [
-	"computer.jpg",
-	"coffeebar.jpg"
+	"cool_guy.jpg",
+	"coffee_on_wood.jpg",
+	"nice_salad.jpg",
+	"office_comfy.jpg",
+	"sandwich.jpg",
+	"yoga_room.jpg"
 ];
 
 var currentImage = 0;
@@ -25,7 +29,7 @@ $('.nextButton').click(function() {
 		currentImage = 0
 	}
 
-	$('#computer').attr('src', studyBarImages[currentImage]);
+	$('#cool_guy').attr('src', studyBarImages[currentImage]);
 
 });
 
@@ -35,7 +39,7 @@ $('.backButton').click(function() {
 		currentImage = studyBarImages.length - 1
 	}
 
-	$('#computer').attr('src', studyBarImages[currentImage]);
+	$('#cool_guy').attr('src', studyBarImages[currentImage]);
 
 
 });
