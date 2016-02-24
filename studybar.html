@@ -5,6 +5,7 @@
  <head>
 	<title>studybar</title>
 	<link rel="stylesheet" href="reset.css">
+	<!-- Make sure you link to the bootstrap CSS file here!  In that case, you no longer need the reset.css file above. -->
 	<link rel="stylesheet" href="studybar.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
@@ -21,7 +22,7 @@
 	<header>
 		<nav id="nav_list">
 		   <ul>
-			<li><a href="#" class="list1">mission</a></li>
+			<li><a href="#mission" class="list1">mission</a></li>  <!-- to use scrollspy, the href attributes need to have the id of the section they are scrolling to -->
 			<li><a href="#" class="list2">philosophy</a></li>
 			<li><a href="#" class="list3">the digs</a></li>
 			<li><a href="#" class="list4">come</a></li>
@@ -36,7 +37,7 @@
    <div class="first">
    </div>
 	
-	<div class="second">
+	<div class="second" id="mission"> <!-- to use scrollspy, the sections need to have an ID that matches the href attributes in your nav_list above -->
 		<p class="mission">Our mission is to enable evening continuity.</p>
 			<div class="equation">
 				LIBRARY + GYM + SALADS + COFFEE 
@@ -120,11 +121,16 @@
 
 
 
+	<!-- 
+		Order matters when you are calling your Javascript files.  You should call jQuery, then Bootstrap, and then
+		your local Javascript file is last.  This might be why scrollspy is not working.
+	-->
 
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="studybar.js"></script>
+	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="studybar.js"></script>
 </body>
 
 
