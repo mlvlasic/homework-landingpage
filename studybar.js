@@ -18,7 +18,6 @@ var studyBarImages = [
 	"nice_salad.jpg",
 	"office_comfy.jpg",
 	"sandwich.jpg",
-	"computer.jpg",
 	"yoga_room.jpg"
 ];
 
@@ -44,29 +43,6 @@ $('.backButton').click(function() {
 
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
