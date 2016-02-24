@@ -10,7 +10,10 @@ $('body').scrollspy({ target: '#nav_list'})
 
 
 
-
+/* 
+	Very nicely done here!  We are going to talk about Bootstrap's carousel
+	functionality in our next class, which I think you might like.
+*/
 
 var studyBarImages = [
 	"cool_guy.jpg",
