@@ -3,7 +3,7 @@ $(document).ready(function() {
 //trying to create an autoscroll here
 //for when user clicks on each nav item, browser should scroll down to corresponding page component	
 		
-
+$('body').scrollspy({ target: '#nav_list'}) 
 
 
 
@@ -18,6 +18,7 @@ var studyBarImages = [
 	"nice_salad.jpg",
 	"office_comfy.jpg",
 	"sandwich.jpg",
+	"computer.jpg",
 	"yoga_room.jpg"
 ];
 

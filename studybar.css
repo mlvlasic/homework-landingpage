@@ -16,7 +16,7 @@
 	clear: both;
 }
 
-.nav_list {
+#nav_list {
 	text-align: center;
 	width: 100%;
 	display: inline-block;
@@ -42,7 +42,7 @@
 .modern_working {
 	background-image: url(modern_working.jpg);
 	height: 800px;
-	width: 1252px;
+	width: 1260px;
 	margin-left: 75px;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -159,15 +159,38 @@
 
 .come {
 	background-color: #B2DFDB;
+	padding-bottom: 15px;
 }
 
 .describe_come {
-	padding-bottom: 300px;
+	padding-bottom: 20px;
+}
+
+.roll {
+	color: black;
+	font-size: 50px;
+}
+
+.roll, .dice {
+	font-family: 'Fjalla One', sans-serif;
+	color: #444;
+	font-weight: 800;
+}
+
+.dice {
+	text-align: center;
+	font-size: 22px;
+	margin-top: 12px;
+	padding-top: 12px;
+	border: solid 3.5px #EF6C00;
+	width: 170px;
+	margin-left: 610px;
+	letter-spacing: 2px;
 }
 
 .the_digs {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 70px;
 }
 
 .arrows {
@@ -176,12 +199,12 @@
 
 .show_digs {
 	text-align: center;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	font-size: 20px;
 	color: #EEEEEE;
-	font-weight: 600;
 	padding-top: 35px;
 	padding-bottom: 35px;
+	font-weight: 100;
 }
 
 .backButton, .nextButton {
@@ -197,6 +220,34 @@
 .backButton:hover, .nextButton:hover {
 	background-color: #F48FB1;
 	color: #fff;
+}
+
+#container {
+	overflow: hidden;
+}
+
+.visit, .below {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 38px;
+	font-weight: 800;
+	color: #EF6C00;
+	padding-left: 30px;
+	padding-top: 22px;
+}
+
+.below {
+	padding-left: 100px;
+	font-size: 16px;
+	padding-top: 12px
+}
+
+.and {
+	color: #1B5E20;
+	font-weight: 800;
+}
+
+body {
+	position: relative;
 }
 
 
