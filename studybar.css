@@ -49,7 +49,6 @@
 	font-weight: 600;
 	text-align: center;
 	padding-top: 165px;
-	padding-left: 20px;
 	color: #fff;
 }
 
@@ -62,15 +61,15 @@
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	padding-top: 50px;
-	padding-left: 20px;
 	font-size: 1.875em;
 	color: #fff;
 	line-height: 2.1;
+	margin-right: 5px;
 }
 
 .iphone {
-	padding-left: 959px;
-	padding-top: 70px;
+	margin-left: 1032px;
+	margin-top: 104px;
 	font-size: .875em;
 	color: #B2DFDB;
 }
@@ -86,8 +85,8 @@
 
 .describe_philosophy, .be_productive {
 	width: 500px;
-	padding-left: 400px;
-	padding-top: 30px;
+	margin-left: 420px;
+	margin-top: 45px;
 	line-height: 1.5;
 	text-align: center;
 }
@@ -97,7 +96,7 @@
 }
 
 .describe_philosophy, .unproductive, .stressed {
-	font-size: 1.375em;
+	font-size: 1.1em;
 }
 
 .unproductive, .stressed, .understand, .us {
@@ -107,10 +106,9 @@
 
 #phil {
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 2.625em;
+	font-size: 2.3em;
 	color: #fff;
-	margin-left: 75px;
-	margin-bottom: 20px;
+	margin-left: 70px;
 	padding-left: 20px;
 	padding-right: 20px;
 	line-height: 1.3;
@@ -120,22 +118,20 @@
 
 .understand {
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 2.25em;
+	font-size: 1.8em;
 	text-align: center;
+	margin-top: 10px;
 	padding-top: 22px;
 	padding-bottom: 22px;
 	background-color: #A7FFEB;
 }
 
-.be_productive {
-	width: 970px;
-	padding-left: 0px;
-	height: 140px;
+.wu {
+	margin-right: 45px;
 }
 
-.productivity {
-	margin-left: 147px;
-	padding-top: 45px;
+.be_productive {
+	text-align: center;
 }
 
 .stick {
@@ -195,10 +191,10 @@
 .show_digs {
 	text-align: center;
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	color: #EEEEEE;
-	padding-top: 35px;
-	padding-bottom: 35px;
+	padding-top: 45px;
+	padding-bottom: 55px;
 	font-weight: 100;
 }
 
