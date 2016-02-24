@@ -3,7 +3,7 @@ $(document).ready(function() {
 //trying to create an autoscroll here
 //for when user clicks on each nav item, browser should scroll down to corresponding page component	
 		
-
+$('body').scrollspy({ target: '#nav_list'}) 
 
 
 
@@ -16,8 +16,13 @@ $(document).ready(function() {
 */
 
 var studyBarImages = [
+	"cool_guy.jpg",
+	"coffee_on_wood.jpg",
+	"nice_salad.jpg",
+	"office_comfy.jpg",
+	"sandwich.jpg",
 	"computer.jpg",
-	"coffeebar.jpg"
+	"yoga_room.jpg"
 ];
 
 var currentImage = 0;
@@ -28,7 +33,7 @@ $('.nextButton').click(function() {
 		currentImage = 0
 	}
 
-	$('#computer').attr('src', studyBarImages[currentImage]);
+	$('#cool_guy').attr('src', studyBarImages[currentImage]);
 
 });
 
@@ -38,7 +43,7 @@ $('.backButton').click(function() {
 		currentImage = studyBarImages.length - 1
 	}
 
-	$('#computer').attr('src', studyBarImages[currentImage]);
+	$('#cool_guy').attr('src', studyBarImages[currentImage]);
 
 
 });

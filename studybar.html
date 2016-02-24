@@ -3,6 +3,7 @@
 <!-- You do not need this second <html> tag; please delete -->
 <html leng="eng">
 
+<<<<<<< HEAD
 <!-- 
 	There should not be a <div> tag before your <head> tag.  Remember that your 
 	<head> tag contains a bunch of information about your website that is not
@@ -10,6 +11,8 @@
 	your CSS files.
 -->
 <div class="top">
+=======
+>>>>>>> mlvlasic/master
  <head>
 	<title>studybar</title>
 	<link rel="stylesheet" href="reset.css">
@@ -17,21 +20,24 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
-
+</head>
   
+<<<<<<< HEAD
   <!-- 
   	Also, this <div> should not be in your <head> tag because it contains elements that are
   	visible to the user on the page.  Please move this block to be inside the <body> tag.
   -->
+=======
+ <body> 
+  <div class="top"> 
+>>>>>>> mlvlasic/master
    <div class="headers">
 	<h1 class="sb">STUDYBAR</h1> 
 	<h2 class="sb sb2">STUDYBAR</h2>
    </div>
- </head>
-
-<body>
+ 
 	<header>
-		<nav class="nav_list">
+		<nav id="nav_list">
 		   <ul>
 			<li><a href="#" class="list1">mission</a></li>
 			<li><a href="#" class="list2">philosophy</a></li>
@@ -43,12 +49,17 @@
 	</header>
 </div>
 
-	<div class="modern_working">
+
+ <section class="modern_working">
+   <div class="first">
+   </div>
+	
+	<div class="second">
 		<p class="mission">Our mission is to enable evening continuity.</p>
 			<div class="equation">
 				LIBRARY + GYM + SALADS + COFFEE 
 			   <div class="equals">
-				= continous yay!
+				= continuous
 			   </div>
 			</div>
 		</p>
@@ -60,8 +71,9 @@
 			<li class="to_do">study</li>
 		</ul>
 
-
 	</div>
+ </section>
+
 
 	<div class="philosophy">
 	   <section class="running_sticks">
@@ -84,7 +96,7 @@
 
 	<div class="the_digs">
 	  <div id="container">
-	  	<img id="computer" src="computer.jpg">
+	  	<img id="cool_guy" src="cool_guy.jpg">
 
 	  <div id="buttons_wrapper">
 	  	<form>
@@ -100,11 +112,19 @@
 	</div>
 
 	<div class="come">
-		<h2></h2>
-
-		<p class="describe_come"></p>
+		<h2 class="visit">~~    Come visit us.    ~~</h2>
+		<h3 class="below"><span class="and">&</span> Free yourself from nightly interruptions.</h3>
 
 	</div>
+	
+
+
+		<h3 class="dice">Roll the 
+			<div><span class="roll">&#9859</span></div>
+		</h3>
+		
+		<p class="describe_come"></p>
+
 
 
 
@@ -122,6 +142,7 @@
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="studybar.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 
 
