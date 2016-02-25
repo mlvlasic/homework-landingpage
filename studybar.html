@@ -3,6 +3,9 @@
 
  <head>
 	<title>studybar</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
@@ -21,11 +24,11 @@
 		<header>
 			<nav id="nav_list">
 				<ul>
-					<li><a href="#" class="list1">mission</a></li>
-					<li><a href="#" class="list2">philosophy</a></li>
-					<li><a href="#" class="list3">the digs</a></li>
-					<li><a href="#" class="list4">come</a></li>
-					<li><a href="#" class="list5">communicate</a></li>
+					<li><a href="#mission" class="list1">mission</a></li>
+					<li><a href="#philosophy" class="list2">philosophy</a></li>
+					<li><a href="#the_digs" class="list3">the digs</a></li>
+					<li><a href="#come" class="list4">come</a></li>
+					<li><a href="#end" class="list5">communicate</a></li>
 		    	</ul>	
 			</nav>
 		</header>
@@ -33,13 +36,15 @@
 
 
     <section class="modern_working">
-		<p class="mission">Our mission is to enable evening continuity.</p>
-			<div class="equation">
-				LIBRARY + GYM + SALADS + COFFEE 
-				<div class="equals">
-				= continuous
-			    </div>
-			</div>
+		<div class="contain">
+			<p id="mission">Our mission is to enable evening continuity.</p>
+				<div class="equation">
+					LIBRARY + GYM + SALADS + COFFEE 
+					<div class="equals">
+					= continuous
+			    	</div>
+				</div>
+		</div>
 
 		<ul class="iphone">
 			<li class="to_do">workout</li>
@@ -50,7 +55,7 @@
 	</section>
 
 
-	<div class="philosophy">
+	<div id="philosophy">
 	   	<section class="running_sticks">
 			<img class="stick" src="stick-man.png" alt="sequence of stick figures running">
 			<img class="stick" src="stick-man.png" alt="sequence of stick figures running">
@@ -78,7 +83,7 @@
 	</div>
 
 
-	<div class="the_digs">
+	<div id="the_digs">
 		<div id="container">
 	  		<img id="cool_guy" src="cool_guy.jpg">
 	   	<div id="buttons_wrapper">
@@ -92,18 +97,29 @@
 	</div>
 
 	
-	<div class="come">
+	<div id="come">
 		<h2 class="visit">~~    Come visit us.    ~~</h2>
 		<h3 class="below">& Free yourself from nightly interruptions.</h3>
 	</div>
 
-		
-	<p class="describe_come"></p>
+	<div id="end">
+		<h3 class="describe_come">Spend a night here:</h3>
+		<ul class="Detroit">
+			<li>STUDYBAR</li>
+			<li>777 Continuous Lane</li>
+			<li>Detroit, MI 77777</li>
+		</ul>
 
+		<h3 class="describe_come2">Communicate with us!</h3>
+		<ul class="Detroit2">
+			<li>studybar77@gmail.com</li>
+			<li>777.777.7777</li>
+		</ul>	
+	</div>
 
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="studybar.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="studybar.js"></script>
 
 </body>
 

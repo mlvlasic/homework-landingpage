@@ -44,7 +44,7 @@
 	filter: grayscale(100%);
 }
 
-.mission {
+#mission {
 	font-size: 1.25em;
 	font-weight: 600;
 	text-align: center;
@@ -52,7 +52,7 @@
 	color: #fff;
 }
 
-.describe_philosophy, .describe_come, .mission, .iphone, .be_productive {
+.describe_philosophy, .mission, .iphone, .be_productive {
 	color: #FAFAFA;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -78,7 +78,7 @@
 	padding-bottom: 7px;
 }
 
-.philosophy, .the_digs {
+#philosophy, #the_digs {
 	font-size: 1.25em;
 	background-color: #4A148C;
 }
@@ -148,16 +148,32 @@
 	padding-right: 110px;
 }
 
-.come {
+#come {
 	background-color: #B2DFDB;
 	padding-bottom: 15px;
 }
 
-.describe_come {
+.describe_come, .describe_come2 {
 	padding-bottom: 20px;
+	color: #444;
+	font-size: 1.2em;
+	font-weight: 800;
+	padding-top: 40px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
-.the_digs {
+.describe_come2 {
+	float: right;
+	padding-right: 50px;
+}
+
+.describe_come {
+	padding-left: 50px;
+}
+
+#the_digs {
 	text-align: center;
 	padding-top: 70px;
 	clear: both;
@@ -231,9 +247,47 @@ body {
 	margin: 0 auto;
 }
 
+.contain {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+.Detroit, .Detroit2 {
+	color: #444;
+	font-size: 1em;
+	font-family: 'Fjalla One', sans-serif;
+	line-height: 1.3;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.Detroit {
+	float: left;
+	padding-left: 300px;
+}
+
+.Detroit2 {
+	float: right;
+	padding-right: 300px;
+}
+
+#end {
+	padding-top: 80px;
+	padding-bottom: 120px;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+@media screen and (max-width: 800px) {
+	.modern_working {
+		background-size: contain;
+		width: 1200px;
+	}
 
 
 
+}
 
 
 
